@@ -2,6 +2,4 @@ services:
   web:
     build: .
     cpus: 0.5
-    mem_limit: 256mgit add .
-  git commit -m "add cpus and mem_limit"
-  git push
+    mem_limit: 256m
