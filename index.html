@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="БЕТОН — урбано кафуле во Скопје со домашно печено кафе.">
+    <title>БЕТОН — Урбано кафуле</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header" id="siteHeader">
+    <div class="nav-inner">
+        <a href="#top" class="logo">БЕТОН<span class="logo-dot">.</span></a>
+        <nav class="main-nav" aria-label="Главна навигација">
+            <a href="#about" data-mk="За нас" data-en="About">За нас</a>
+            <a href="#menu" data-mk="Мени" data-en="Menu">Мени</a>
+            <a href="#team" data-mk="Тим" data-en="Team">Тим</a>
+            <a href="#gallery" data-mk="Галерија" data-en="Gallery">Галерија</a>
+            <a href="#blog" data-mk="Новости" data-en="News">Новости</a>
+            <a href="#faq" data-mk="Прашања" data-en="FAQ">Прашања</a>
+            <a href="#contact" data-mk="Контакт" data-en="Contact">Контакт</a>
+        </nav>
+        <div class="nav-actions">
+            <button class="lang-toggle" id="langToggle" aria-label="Смени јазик / Switch language">MK / EN</button>
+            <button class="burger" id="burger" aria-label="Отвори мени" aria-expanded="false" aria-controls="mobileNav">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </div>
+</header>
+
+<div class="mobile-nav" id="mobileNav">
+    <a href="#about" data-mk="За нас" data-en="About">За нас</a>
+    <a href="#menu" data-mk="Мени" data-en="Menu">Мени</a>
+    <a href="#team" data-mk="Тим" data-en="Team">Тим</a>
+    <a href="#gallery" data-mk="Галерија" data-en="Gallery">Галерија</a>
+    <a href="#blog" data-mk="Новости" data-en="News">Новости</a>
+    <a href="#faq" data-mk="Прашања" data-en="FAQ">Прашања</a>
+    <a href="#contact" data-mk="Контакт" data-en="Contact">Контакт</a>
+</div>
+
+<main id="top">
+
+    <section class="hero">
+        <div class="hero-grid"></div>
+        <div class="hero-content">
+            <p class="eyebrow" data-mk="Скопје · од 2019" data-en="Skopje · since 2019">Скопје · од 2019</p>
+            <h1 class="hero-title">
+                <span data-mk="Кафе на" data-en="Coffee on">Кафе на</span>
+                <span class="stroke" data-mk="улицата" data-en="the street">улицата</span>
+            </h1>
+            <p class="hero-sub" data-mk="Високиот квалитет е инвестиција во вкус, искуство и истрајност. Го постигнуваме преку домашно печено зрно, бетонски ѕидини и добра музика." data-en="High quality is an investment in taste, experience, and long-term living. We achieve this through home-roasted coffee beans, concrete walls, and good music.">Домашно печено зрно, бетонски ѕидови и добра музика. Без претенциозност — само солиден еспресо и место каде сакаш да останеш.</p>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary" data-mk="Погледни мени" data-en="View menu">Погледни мени</a>
+                <a href="#contact" class="btn btn-ghost" data-mk="Најди нè" data-en="Find us">Најди нè</a>
+            </div>
+            <p class="open-badge" id="openBadge"></p>
+        </div>
+        <div class="cup-signature" aria-hidden="true">
+            <svg viewBox="0 0 220 140" class="steam-svg"><path class="steam s1" d="M70 120 C 55 100, 85 80, 70 60 C 55 40, 85 20, 70 0"/><path class="steam s2" d="M110 120 C 95 100, 125 80, 110 60 C 95 40, 125 20, 110 0"/><path class="steam s3" d="M150 120 C 135 100, 165 80, 150 60 C 135 40, 165 20, 150 0"/></svg>
+            <svg viewBox="0 0 220 140" class="cup-svg"><path d="M20 30 H160 V90 C160 115 138 130 110 130 H70 C42 130 20 115 20 90 Z" fill="none" stroke="currentColor" stroke-width="6"/><path d="M160 45 H185 C198 45 205 55 205 68 C205 81 198 91 185 91 H160" fill="none" stroke="currentColor" stroke-width="6"/><line x1="10" y1="130" x2="170" y2="130" stroke="currentColor" stroke-width="6" stroke-linecap="round"/></svg>
+        </div>
+    </section>
+
+    <section class="section about" id="about">
+        <div class="section-inner about-grid">
+            <div class="about-text">
+                <p class="eyebrow" data-mk="01 · За нас" data-en="01 · About">01 · За нас</p>
+                <h2 data-mk="Од гаражна пекарница до омилен агол" data-en="From a garage roastery to a favorite corner">Од гаражна пекарница до омилен агол</h2>
+                <p data-mk="БЕТОН започна во 2019 како мала пекарница во стар индустриски простор во Скопје. Денес сме место каде студенти учат, тимови работат и пријатели се среќаваат — секогаш со нашето домашно кафе." data-en="BETON started in 2019 as a small roastery in an old industrial space in Skopje. Today we're a place where students study, teams work and friends meet — always with ours homemade coffee.">БЕТОН започна во 2019 како мала печалница во стар индустриски простор во Скопје. Денес сме место каде студенти учат, тимови работат и пријатели се среќаваат — секогаш со нашето домашно кафе.</p>
+                <div class="stat-row">
+                    <div class="stat"><span class="stat-num">7</span><span data-mk="години" data-en="years">години</span></div>
+                    <div class="stat"><span class="stat-num">12</span><span data-mk="сорти зрна" data-en="bean origins">сорти зрна</span></div>
+                    <div class="stat"><span class="stat-num">100%</span><span data-mk="домашно печено" data-en="house-roasted">домашно печено</span></div>
+                </div>
+            </div>
+            <div class="about-visual">
+                <img src="images/img1.jpg" alt="Внатре во кафулето БЕТОН" loading="lazy">
+                <span class="sticker" data-mk="свежо секое утро" data-en="roasted every morning">свежо секое утро</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="section menu-section" id="menu">
+        <div class="section-inner">
+            <p class="eyebrow" data-mk="02 · Мени" data-en="02 · Menu">02 · Мени</p>
+            <h2 data-mk="Што нудиме" data-en="What we serve">Што нудиме</h2>
+            <div class="tabs" role="tablist">
+                <button class="tab-btn active" role="tab" aria-selected="true" data-tab="coffee" data-mk="Кафе" data-en="Coffee">Кафе</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-tab="food" data-mk="Храна" data-en="Food">Храна</button>
+                <button class="tab-btn" role="tab" aria-selected="false" data-tab="drinks" data-mk="Останато" data-en="Other drinks">Останато</button>
+            </div>
+            <div class="tab-panel active" data-panel="coffee">
+                <div class="menu-item"><span class="mi-name" data-mk="Еспресо" data-en="Espresso">Еспресо</span><span class="mi-dots"></span><span class="mi-price">90 ден</span></div>
+                <div class="menu-item"><span class="mi-name" data-mk="Капучино" data-en="Cappuccino">Капучино</span><span class="mi-dots"></span><span class="mi-price">110 ден</span></div>
+                <div class="menu-item"><span class="mi-name" data-mk="Макијато" data-en="Macchiato">Макијато</span><span class="mi-dots"></span><span class="mi-price">120 ден</span></div>
+                <div class="menu-item"><span class="mi-name" data-mk="Филтер кафе" data-en="Filter coffee">Филтер кафе</span><span class="mi-dots"></span><span class="mi-price">130 ден</span></div>
+            </div>
+            <div class="tab-panel" data-panel="food">
+                <div class="menu-item"><span class="mi-name" data-mk="Кроасан со путер" data-en="Butter croissant">Кроасан со путер</span><span class="mi-dots"></span><span class="mi-price">90 ден</span></div>
+                <div class="menu-item"><span class="mi-name" data-mk="Сендвич со пршута" data-en="Prosciutto sandwich">Сендвич со пршута</span><span class="mi-dots"></span><span class="mi-price">180 ден</span></div>
+                <div class="menu-item"><span class="mi-name" data-mk="Чизкејк" data-en="Cheesecake">Чизкејк</span><span class="mi-dots"></span><span class="mi-price">150 ден</span></div>
+            </div>
+            <div class="tab-panel" data-panel="drinks">
+                <div class="menu-item"><span class="mi-name" data-mk="Мача лате" data-en="Matcha latte">Мача лате</span><span class="mi-dots"></span><span class="mi-price">170 ден</span></div>
+                <div class="menu-item"><span class="mi-name" data-mk="Домашна лимонада" data-en="Homemade lemonade">Домашна лимонада</span><span class="mi-dots"></span><span class="mi-price">200 ден</span></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section team-section" id="team">
+        <div class="section-inner">
+            <p class="eyebrow" data-mk="03 · Тим" data-en="03 · Team">03 · Тим</p>
+            <h2 data-mk="Луѓето зад шанкот" data-en="The people behind the counter">Луѓето зад шанкот</h2>
+            <div class="team-grid">
+                <div class="team-card">
+                    <div class="team-photo tp1"><img src="images/img2.jpg" alt="Зоран В." loading="lazy"></div>
+                    <h3 data-mk="Зоран В." data-en="Zoran V.">Зоран В.</h3>
+                    <p data-mk="Основач · бариста" data-en="Founder · barista">Основач · бариста</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo tp2"><img src="images/imgg3.jpg" alt="Анастасија М." loading="lazy"></div>
+                    <h3 data-mk="Анастасија М." data-en="Anastasija M.">Анастасија М.</h3>
+                    <p data-mk="Пекарница" data-en="Bakery">Пекарница</p>
+                </div>
+                <div class="team-card">
+                    <div class="team-photo tp3"><img src="images/img4.jpg" alt="Ања М." loading="lazy"></div>
+                    <h3 data-mk="Ања М." data-en="Anja M.">Ања М.</h3>
+                    <p data-mk="Кујна" data-en="Kitchen">Кујна</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section gallery-section" id="gallery">
+        <div class="section-inner">
+            <p class="eyebrow" data-mk="04 · Галерија" data-en="04 · Gallery">04 · Галерија</p>
+            <h2 data-mk="Атмосфера" data-en="Atmosphere">Атмосфера</h2>
+            <div class="gallery-grid">
+                <div class="g-item g1">
+                    <img src="images/img5.jpg" alt="Шанкот" loading="lazy">
+                    <span data-mk="Шанкот" data-en="The bar">Шанкот</span>
+                </div>
+                <div class="g-item g2">
+                    <img src="images/img7.jpg" alt="Пекарница" loading="lazy">
+                    <span data-mk="Пекарница" data-en="Roastery">Пекарница</span>
+                </div>
+                <div class="g-item g3">
+                    <img src="images/img8.jpg" alt="Зрна" loading="lazy">
+                    <span data-mk="Зрна" data-en="Beans">Зрна</span>
+                </div>
+                <div class="g-item g4">
+                    <img src="images/img9.jpg" alt="Сабота наутро" loading="lazy">
+                    <span data-mk="Сабота наутро" data-en="Saturday morning">Сабота наутро</span>
+                </div>
+                <div class="g-item g5">
+                    <img src="images/img10.jpg" alt="Терасата" loading="lazy">
+                    <span data-mk="Терасата" data-en="The terrace">Терасата</span>
+                </div>
+            </div>        </div>
+    </section>
+
+    <section class="section blog-section" id="blog">
+        <div class="section-inner">
+            <p class="eyebrow" data-mk="05 · Новости" data-en="05 · News">05 · Новости</p>
+            <h2 data-mk="Од пекарницата" data-en="From the roastery">Од пекарницата</h2>
+            <div class="blog-grid">
+                <article class="blog-card"><span class="blog-date">18.07.2026</span><h3 data-mk="Ново зрно од Етиопија" data-en="New Ethiopian single origin">Ново зрно од Етиопија</h3><p data-mk="Воведуваме single-origin од регионот Гуџи — цветно, со ноти на боровинка." data-en="We're introducing a single origin from the Guji region — floral, with blueberry notes.">Воведуваме single-origin од регионот Гуџи — цветно, со ноти на боровинка.</p></article>
+                <article class="blog-card"><span class="blog-date">02.06.2026</span><h3 data-mk="Работилница: latte art" data-en="Workshop: latte art">Работилница: latte art</h3><p data-mk="Секоја последна сабота во месецот — бесплатна работилница за нашите гости." data-en="Every last Saturday of the month — a free workshop for our guests.">Секоја последна сабота во месецот — бесплатна работилница за нашите гости.</p></article>
+                <article class="blog-card"><span class="blog-date">14.05.2026</span><h3 data-mk="Продолжено работно време" data-en="Extended opening hours">Продолжено работно време</h3><p data-mk="Преку лето сме отворени до 24ч секој ден." data-en="Over the summer we're open until 12pm every day.">Преку лето сме отворени до 24ч секој ден.</p></article>
+            </div>
+        </div>
+    </section>
+
+    <section class="section faq-section" id="faq">
+        <div class="section-inner">
+            <p class="eyebrow" data-mk="06 · Прашања" data-en="06 · FAQ">06 · Прашања</p>
+            <h2 data-mk="Најчести прашања" data-en="Common questions">Најчести прашања</h2>
+            <div class="faq-list">
+                <details><summary data-mk="Дали имате Wi-Fi и контакти за работа?" data-en="Do you have Wi-Fi and power outlets?">Дали имате Wi-Fi и контакти за работа?</summary><p data-mk="Да, бесплатен Wi-Fi и контакти на повеќето маси. Лаптопите се добредојдени." data-en="Yes, free Wi-Fi and outlets at most tables. Laptops are welcome.">Да, бесплатен Wi-Fi и контакти на повеќето маси. Лаптопите се добредојдени.</p></details>
+                <details><summary data-mk="Може ли да купам печено кафе за дома?" data-en="Can I buy beans to take home?">Може ли да купам печено кафе за дома?</summary><p data-mk="Секако — продаваме зрно од 250 г и 1 кг, мелено по желба." data-en="Of course — we sell 250 g and 1 kg bags, ground to order.">Секако — продаваме зрно од 250 г и 1 кг, мелено по желба.</p></details>
+                <details><summary data-mk="Дозволени ли се миленичиња?" data-en="Are pets allowed?">Дозволени ли се миленичиња?</summary><p data-mk="Да, pet-friendly сме." data-en="Yes, we are pet-friendly.">Да, pet-friendly сме.</p></details>
+            </div>
+        </div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+        <div class="section-inner contact-grid">
+            <div class="contact-info">
+                <p class="eyebrow" data-mk="07 · Контакт" data-en="07 · Contact">07 · Контакт</p>
+                <h2 data-mk="Најди нè" data-en="Find us">Најди нè</h2>
+                <ul class="info-list">
+                    <li><strong data-mk="Адреса" data-en="Address">Адреса</strong><span>ул. Македонија 12, Скопје</span></li>
+                    <li><strong data-mk="Телефон" data-en="Phone">Телефон</strong><a href="tel:+38970123456">070 123 456</a></li>
+                    <li><strong data-mk="Е-пошта" data-en="Email">Е-пошта</strong><a href="mailto:info@beton-kafule.mk">info@beton-kafule.mk</a></li>
+                    <li><strong data-mk="Работно време" data-en="Hours">Работно време</strong><span data-mk="Пон–Нед · 07:00–22:00" data-en="Mon–Sun · 7:00–22:00">Пон–Нед · 07:00–22:00</span></li>
+                </ul>
+                <div class="map-box">
+                    <iframe title="Мапа" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=ul.+Makedonija+12,+Skopje&output=embed"></iframe>
+                </div>
+            </div>
+            <form class="contact-form" id="contactForm">
+                <label><span data-mk="Име" data-en="Name">Име</span><input type="text" name="name" autocomplete="name" required></label>
+                <label><span data-mk="Е-пошта" data-en="Email">Е-пошта</span><input type="email" name="email" autocomplete="email" required></label>
+                <label><span data-mk="Порака" data-en="Message">Порака</span><textarea name="message" rows="5" required></textarea></label>
+                <button type="submit" class="btn btn-primary" data-mk="Испрати" data-en="Send">Испрати</button>
+                <p class="form-note" id="formNote" role="status"></p>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <span class="logo">БЕТОН<span class="logo-dot">.</span></span>
+        <p data-mk="© 2019 Кафуле БЕТОН. Сите права задржани." data-en="© 2019 BETON Cafe. All rights reserved.">© 2019 Кафуле БЕТОН. Сите права задржани.</p>
+        <div class="socials">
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">IG</a>
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">FB</a>
+            <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" aria-label="TikTok">TT</a>
+        </div>    </div>
+</footer>
+
+<button id="backToTop" class="back-to-top" aria-label="Назад на врв">↑</button>
+
+<div class="cookie-banner" id="cookieBanner" role="dialog" aria-label="Cookies">
+    <p data-mk="Користиме колачиња за подобро корисничко искуство." data-en="We use cookies to improve your experience.">Користиме колачиња за подобро корисничко искуство.</p>
+    <div class="cookie-actions">
+        <button id="cookieAccept" class="btn btn-primary btn-sm" data-mk="Прифати" data-en="Accept">Прифати</button>
+        <button id="cookieDecline" class="btn btn-ghost btn-sm" data-mk="Одбиј" data-en="Decline">Одбиј</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
